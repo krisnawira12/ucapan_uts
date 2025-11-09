@@ -1,2 +1,0 @@
-# ucapan_uts
-yesie

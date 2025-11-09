@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat UTS!</title>
+    <style>
+        /* CSS untuk styling */
+        body {
+            font-family: 'Poppins', sans-serif; /* Font modern */
+            background-color: #ffe0b2; /* Latar belakang Peach yang ceria */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff; /* Latar belakang card putih bersih */
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(255, 127, 80, 0.4); /* Bayangan dengan warna Coral */
+            padding: 40px;
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            border: 5px solid #ff7f50; /* Garis tepi tebal warna coral */
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #d84315; /* Merah Bata yang kuat */
+            font-size: 3em;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: #5d4037; /* Cokelat tua untuk kontras */
+            font-size: 1.5em;
+            font-style: italic;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .message {
+            color: #4e342e;
+            font-size: 1.3em; /* Ukuran teks diperbesar */
+            font-weight: bold;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            background-color: #fff9c4; /* Latar belakang kuning muda untuk pesan */
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px dashed #ff7f50; /* Garis putus-putus lucu */
+        }
+        
+        .message-emoji {
+            font-size: 2em;
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Styling untuk tempat foto/avatar */
+        .photo-container {
+            margin: 25px 0 35px 0;
+        }
+
+        .photo-placeholder {
+            width: 160px;
+            height: 160px;
+            background-color: #ffccbc; /* Warna latar belakang foto */
+            border-radius: 50%; /* Bentuk lingkaran */
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #d84315;
+            font-weight: bold;
+            font-size: 0.9em;
+            border: 4px solid #ff7f50;
+            overflow: hidden;
+        }
+
+        .emoji {
+            font-size: 3.5em;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <span class="emoji">🔥🤓💯</span>
+        <h1>SEMANGAAT</h1>
+        <span class="subtitle">UTS-nya Senggg!</span>
+        
+        <div class="photo-container">
+            <div class="photo-placeholder">
+                <p>Pasang <br> Foto Kece di Sini!</p>
+                </div>
+        </div>
+
+        <p class="message">
+            Jangan nyontek,
+            <br>jangan tidur pas UTS!
+            <span class="message-emoji">😉✌️</span>
+        </p>
+
+    </div>
+
+</body>
+</html>
